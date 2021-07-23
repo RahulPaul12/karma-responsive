@@ -1,0 +1,89 @@
+
+header{
+    background-image: url(first-background.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+
+}
+.list a:hover{
+    background-color: rgb(236, 99, 49);
+    border-radius: 8px;
+}
+.head{
+    text-align: center;
+}
+.h1{
+    color: white;
+    text-align: center;
+    font-size: 4em;
+    font-weight: 200;
+    padding-top: 20vh;
+}
+.h2{
+    color: white;
+    line-height: 2em;
+    font-size: 2em;
+    font-weight: 200;
+    padding-top: 3vh;
+}
+.btn{
+    color: white;
+    margin-top: 8vh;
+    height: 3em;
+    background-color: rgb(236, 99, 49);
+}
+.mid h1{
+    color: #000;
+    
+    font-size: 4em;
+    font-weight: 200;
+    padding-top: 20vh;
+}
+.item img{
+
+    height: 25vh;
+}
+.item{
+    padding-top: 8vh;
+    margin-left: 10vh;
+
+}
+.items{
+    display: flex;
+    justify-content: space-around;
+}
+.mid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.svg img{
+    width: 3vh;
+    padding-top: 2vh;
+    margin-left: 2vh;
+}
+.svg{
+    
+    display: flex;
+    
+}
+.footer{
+    padding-top: 8vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 5vh;
+}
+@media only screen and (max-width:768px){
+    .mid h1{
+        text-align: center;
+
+    }
+    .mid .items{
+        display: flex;
+        flex-direction:column;
+    }
+
+}
